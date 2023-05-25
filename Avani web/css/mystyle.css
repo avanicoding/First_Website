@@ -1,0 +1,100 @@
+body
+{
+	background-image: url('../images/bgd.jpg');
+	padding-left:15em;
+	font-family:"Times New Roman", Times, serif;
+	padding-right: 5em;
+	color: hotpink;
+}
+img {
+  border-radius: 8px;
+}
+p:hover
+{	background-color: #FAE2F2;
+	Color: blue;
+}
+p
+{
+	color: green;
+	font-size : 15;
+}	
+h1
+{
+	font-family: Geneva,Helvetica, Arial, sans-serif;
+	color: hotpink;
+}
+
+ul.navbar
+{
+	list-style-type: none;
+	position: absolute;
+	top: 1em;
+	left: 2em;
+	width: 9em;	
+	font-size :15;
+}
+
+
+ul.navbar li 
+{
+	background-color : white;
+	margin: 0.5em 0;
+	padding: 0.3em;
+	border-right: 1em solid hotpink;
+	
+}
+
+/* mouse over link */
+a:hover {
+  color: white;
+  background-color:hotpink;
+}
+
+
+img.textwrap
+{
+	float:right;
+	margin: 2em;
+}
+.container{
+      display: inline-block;
+    }
+    .typed-out{
+      overflow: hidden;
+      border-right: .15em solid hotpink;
+      white-space: nowrap;
+      animation: 
+      typing 2s steps(20, end) forwards;
+      font-size: 1.6rem;
+      width: 0;
+    }
+    @keyframes typing {
+      from { width: 0 }
+      to { width: 100% }
+    }
+	
+	.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted white;
+	}
+	.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: white;
+  color: hotpink;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
